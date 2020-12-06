@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/profileFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato"
+        android:text="Profile"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#360653"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/fullNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name: "
+        android:padding="20dp"
+        />
+
+    <TextView
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email address: "
+        android:padding="20dp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/lato"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/forgotPassword"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/lato"
+        android:text="Forgot Password" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/lato"
+        android:text="Home" />
+
+
+</LinearLayout>
